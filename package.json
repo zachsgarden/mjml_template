@@ -1,0 +1,13 @@
+{
+  "name": "mjml-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "mjml src/index.mjml --output src/index.html"
+  },
+  "devDependencies": {
+    "mjml": "^4.14.0",
+    "mjml-head-font": "^4.14.0"
+  }
+}

@@ -1,0 +1,71 @@
+<mjml>
+  <mj-head>
+    <!-- <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico" /> -->
+    <mj-attributes>
+      <mj-body background-color="#ffffff" />
+      <mj-text font-family="Verdana" color="#6b6b6b" />
+      <mj-divider padding="0" />
+      <mj-section padding="0" />
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style>
+    </mj-style>
+  </mj-head>
+  <mj-body>
+
+    <!-- Header section will span 100% -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image width="600px" src="https://images.unsplash.com/photo-1578349035260-9f3d4042f1f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Main section -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text font-weight="300" font-size="26px" color="#1b365d" padding="25px">
+          Technical Assistance Referral
+        </mj-text>
+        <mj-divider border-width="2px" border-style="solid" border-color="lightgray" />
+        <mj-text font-weight="300" font-size="20px">
+          <p>
+            Urgency of Request
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <!-- The tables will have to be reproduced in these columns since they are divided into left and right content areas -->
+      <mj-column width="100%">
+        <!-- Table 1 -->
+        <mj-table>
+          <tr>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Submitted by:</td>
+            <td style="padding: 10px 0; font-weight: 300;">Zach Kamp</td>
+            <td style="width: 25px border: none;"></td>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Referral ID:</td>
+            <td style="padding: 10px 0; font-weight: 300;">684351</td>
+          </tr>
+          <tr>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Date:</td>
+            <td style="padding: 10px 0; font-weight: 300;">01/02/03</td>
+          </tr>
+        </mj-table>
+
+        <!-- Table 2 -->
+        <mj-table>
+          <tr>
+            <td style="padding: 10px 0; font-weight: 400;">TDHS Corrective Action:</td>
+            <td style="padding: 10px 0; font-weight: 300;">Zach Kamp</td>
+            <td style="padding: 10px 0; font-weight: 400;">Referral ID:</td>
+            <td style="padding: 10px 0; font-weight: 300;">684351</td>
+          </tr>
+          <tr>
+            <td style="width: 120px; padding: 10px 0; font-size: 16px; font-weight: 400;">Date:</td>
+            <td style="padding: 10px 0; font-size: 16px; font-weight: 300;">01/02/03</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
