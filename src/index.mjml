@@ -8,29 +8,37 @@
       <mj-section padding="0" />
       <mj-image padding="0" />
     </mj-attributes>
-    <mj-style>
-    </mj-style>
+    <mj-style> </mj-style>
   </mj-head>
   <mj-body>
-
     <!-- Header section will span 100% -->
     <mj-section>
       <mj-column width="100%">
-        <mj-image width="600px" src="https://images.unsplash.com/photo-1578349035260-9f3d4042f1f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" />
+        <mj-image
+          width="600px"
+          src="https://images.unsplash.com/photo-1578349035260-9f3d4042f1f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        />
       </mj-column>
     </mj-section>
 
     <!-- Main section -->
     <mj-section>
       <mj-column width="100%">
-        <mj-text font-weight="300" font-size="26px" color="#1b365d" padding="25px">
+        <mj-text
+          font-weight="300"
+          font-size="26px"
+          color="#1b365d"
+          padding="25px"
+        >
           Technical Assistance Referral
         </mj-text>
-        <mj-divider border-width="2px" border-style="solid" border-color="lightgray" />
+        <mj-divider
+          border-width="2px"
+          border-style="solid"
+          border-color="lightgray"
+        />
         <mj-text font-weight="300" font-size="20px">
-          <p>
-            Urgency of Request
-          </p>
+          <p>Urgency of Request</p>
         </mj-text>
       </mj-column>
 
@@ -38,34 +46,212 @@
       <mj-column width="100%">
         <!-- Table 1 -->
         <mj-table>
-          <tr>
-            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Submitted by:</td>
-            <td style="padding: 10px 0; font-weight: 300;">Zach Kamp</td>
-            <td style="width: 25px border: none;"></td>
-            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Referral ID:</td>
-            <td style="padding: 10px 0; font-weight: 300;">684351</td>
+          <tr style="text-align: left; padding: 15px 0">
+            <th
+              style="
+                width: 45%;
+                border-right: 1px solid lightgray;
+                font-weight: 100;
+                padding-top: 20px;
+              "
+            >
+              Submitted by:
+            </th>
+            <th style="width: 45%; padding: 20px 0 0 15px; font-weight: 100">
+              Referral ID:
+            </th>
           </tr>
-          <tr>
-            <td style="width: 120px; padding: 10px 0; font-weight: 400;">Date:</td>
-            <td style="padding: 10px 0; font-weight: 300;">01/02/03</td>
+          <tr style="text-align: right; padding: 15px 0">
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-right: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              zkamp@utk.edu
+            </td>
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-bottom: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              13875168
+            </td>
+          </tr>
+          <tr style="text-align: left; padding: 15px 0">
+            <th
+              style="
+                width: 45%;
+                border-right: 1px solid lightgray;
+                font-weight: 100;
+                padding-top: 20px;
+              "
+            >
+              Date:
+            </th>
+          </tr>
+          <tr style="text-align: right; padding: 15px 0">
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-right: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              04/07/2023
+            </td>
           </tr>
         </mj-table>
+        <mj-spacer height="50px" />
 
         <!-- Table 2 -->
         <mj-table>
-          <tr>
-            <td style="padding: 10px 0; font-weight: 400;">TDHS Corrective Action:</td>
-            <td style="padding: 10px 0; font-weight: 300;">Zach Kamp</td>
-            <td style="padding: 10px 0; font-weight: 400;">Referral ID:</td>
-            <td style="padding: 10px 0; font-weight: 300;">684351</td>
+          <tr style="text-align: left; padding: 15px 0">
+            <th
+              style="
+                width: 45%;
+                border-right: 1px solid lightgray;
+                font-weight: 100;
+                padding-top: 20px;
+              "
+            >
+              TDHS Corrective Action (Complete within 5 business days):
+            </th>
+            <th style="width: 45%; padding: 20px 0 0 15px; font-weight: 100">
+              TDHS Referral:
+            </th>
           </tr>
-          <tr>
-            <td style="width: 120px; padding: 10px 0; font-size: 16px; font-weight: 400;">Date:</td>
-            <td style="padding: 10px 0; font-size: 16px; font-weight: 300;">01/02/03</td>
+          <tr style="text-align: right; padding: 15px 0">
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-right: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              Yes
+            </td>
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-bottom: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              No
+            </td>
+          </tr>
+          <tr style="text-align: left; padding: 15px 0">
+            <th
+              style="
+                width: 45%;
+                border-right: 1px solid lightgray;
+                font-weight: 100;
+                padding-top: 20px;
+              "
+            >
+              Safety Plan:
+            </th>
+            <th style="width: 45%; padding: 20px 0 0 15px; font-weight: 100">
+              Safety Priority:
+            </th>
+          </tr>
+          <tr style="text-align: right; padding: 15px 0">
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-right: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              No
+            </td>
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                font-size: 20px;
+                border-bottom: 1px solid lightgray;
+              "
+            >
+              Medium
+            </td>
+          </tr>
+          <tr style="text-align: left; padding: 15px 0">
+            <th
+              style="
+                width: 45%;
+                border-right: 1px solid lightgray;
+                font-weight: 100;
+                padding-top: 20px;
+              "
+            >
+              Safety Plan:
+            </th>
+          </tr>
+          <tr style="text-align: right; padding: 15px 0">
+            <td
+              style="
+                padding: 0 15px 20px 0;
+                border-right: 1px solid lightgray;
+                font-size: 20px;
+              "
+            >
+              No
+            </td>
           </tr>
         </mj-table>
+        <!-- <mj-table>
+          <tr>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400">
+              Submitted by:
+            </td>
+            <td style="padding: 10px 0; font-weight: 300">Zach Kamp</td>
+            <td style="width: 25px border: none;"></td>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400">
+              Referral ID:
+            </td>
+            <td style="padding: 10px 0; font-weight: 300">684351</td>
+          </tr>
+          <tr>
+            <td style="width: 120px; padding: 10px 0; font-weight: 400">
+              Date:
+            </td>
+            <td style="padding: 10px 0; font-weight: 300">01/02/03</td>
+          </tr>
+        </mj-table> -->
+
+        <!-- <mj-table>
+          <tr>
+            <td style="padding: 10px 0; font-weight: 400">
+              TDHS Corrective Action:
+            </td>
+            <td style="padding: 10px 0; font-weight: 300">Zach Kamp</td>
+            <td style="padding: 10px 0; font-weight: 400">Referral ID:</td>
+            <td style="padding: 10px 0; font-weight: 300">684351</td>
+          </tr>
+          <tr>
+            <td
+              style="
+                width: 120px;
+                padding: 10px 0;
+                font-size: 16px;
+                font-weight: 400;
+              "
+            >
+              Date:
+            </td>
+            <td style="padding: 10px 0; font-size: 16px; font-weight: 300">
+              01/02/03
+            </td>
+          </tr>
+        </mj-table> -->
       </mj-column>
     </mj-section>
-
   </mj-body>
 </mjml>
